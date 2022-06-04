@@ -1,0 +1,292 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.container-contents {
+    width: 1170px;
+    max-width: 1170px;
+    margin: 125px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-nav-bar {
+    width: 1170px;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.paragrafo-welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(160, 160, 160);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 5px 25px;
+}
+
+.container-name-page {
+    border: solid 1px;
+    height: 200px;
+    background-color: rgb(0, 107, 230);
+    color: #fff;
+}
+
+.name-page {
+    display: flex;
+    width: 1170px;
+    max-width: 1170px;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.container-contents .title-rh {
+    text-align: center;
+}
+
+/*candidatos cards*/
+
+
+
+.container-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1550px;
+    max-width: 1550px;
+    justify-content: flex-start;
+}
+
+.container-cards .btn-primary {
+    width: 100%;
+    padding: 15px;
+}
+
+.card {
+    margin: 50px auto;
+    display: flex;
+    padding: 15px;
+    width: 28%;
+    box-shadow: 0px 0px 8px 2px;
+
+
+}
+
+.card-title,
+.btn-card {
+    margin: 25px 0px !important;
+    text-align: center;
+}
+
+
+
+ol,
+ul {
+
+
+    padding: 0 !important;
+}
+
+.container-cards a {
+    width: 50%;
+}
+
+.card-text {
+    line-height: 1.4em;
+
+}
+
+
+/*candidato - pag unica*/
+
+.profile-candidato {
+
+    background-color: rgb(30, 38, 61);
+}
+
+.card-body a {
+    background-color: rgb(46, 168, 46);
+    padding: 15px 30px;
+    color: #fff;
+
+    border-radius: 5px;
+}
+
+.card-body a:hover {
+    background-color: rgb(0, 255, 0);
+    color: #fff;
+}
+
+.button-wpp {
+    margin-top: 35px;
+}
+
+
+/*candidato perfil*/
+
+.profile-candidato-info .card {
+    border:none;
+    box-shadow: 0px 0px 8px 2px;
+}
+
+.btn-candidato-perfil {
+    background-color: rgb(0, 107, 230);
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+}
+
+.btn-candidato-perfil:hover {
+    background-color: rgb(0, 75, 160);
+}
+
+.candidato-perfil .list-group-item {
+    margin: 25px 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.candidato-perfil select {
+    margin-top: 5px;
+    display: flex;
+}
+
+.candidato-perfil input,
+select,
+textarea {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 1px 2px transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 173, 173);
+    padding: 10px;
+}
+
+
+.candidato-perfil label {
+    margin-right: 15px;
+}
+
+.profile-candidato-info img {
+    width: 170px;
+    height: 170px;
+    box-shadow: 0px 2px 5px 2px black;
+    border-radius: 100px;
+}
+
+.text-image-candidato {
+    display: flex;
+    margin-bottom: 50px;
+    flex-direction: row;
+    background-color: rgb(30, 38, 61);
+    color: #fff;
+}
+
+.img-candidato-profile {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.title-candidato-profile {
+    margin-left: 20px;
+    display: flex;
+}
+
+/*card candidatos*/
+
+
+.card-img-candidatos img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    box-shadow: 0px 5px 15px 1px rgb(0, 0, 0);
+}
+
+.block-img-candidatos{
+    background-color: rgb(30, 38, 61);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-candidatos hr{
+   margin: 10px 0;
+}
+
+
+/* my-friends */
+
+.my-friends{
+    display: flex;
+}
+
+.exclude-friend{
+    background-color: rgb(133, 4, 4) !important;
+    border-color: rgb(255, 49, 49)  !important;
+    margin-left: 20px;
+}
+
+.exclude-friend:hover{
+    background-color: rgb(255, 66, 66) !important;
+    border-color: rgb(255, 66, 66)  !important;
+}
+.send-message{
+    background-color: rgb(0, 255, 0) !important;
+    border-color: rgb(0, 255, 0)   !important;
+    margin-left: 20px;
+}
+
+.send-message:hover{
+    background-color: rgb(28, 177, 28) !important;
+    border-color: rgb(28, 177, 28)  !important;
+}
+
+
+/*Formulário página Index*/
+
+#form-login input{
+padding: 5px;
+margin: 5px 0;
+border-radius: 5px;
+border:transparent;
+}
+
+#form-login button{
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 2px 15px;
+    box-shadow: 1px 1px 1px 0px;
+    border: #fff;
+    background-color: #fff;
+}
+
+/*Formulário página criar conta*/
+.form-create-account{
+
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    height: 100vh;
+    
+}
